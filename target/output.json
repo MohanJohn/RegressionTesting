@@ -1,0 +1,170 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7477669500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User have to lanuch chrome and hit the FB url",
+            "match": {
+              "location": "LoginStep.user_have_to_lanuch_chrome_and_hit_the_FB_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "To verify login functionality with valid username and with password  in FB ",
+        "id": "to-valitdate-the-login-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 273325400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter the username and password",
+            "match": {
+              "location": "LoginStep.enter_the_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "john",
+                  "john@123"
+                ]
+              },
+              {
+                "cells": [
+                  "Arun",
+                  "Arun@123"
+                ]
+              },
+              {
+                "cells": [
+                  "Mathi",
+                  "Mathi@123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85875000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click the login button",
+            "match": {
+              "location": "LoginStep.click_the_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7772602000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User have to lanuch chrome and hit the FB url",
+            "match": {
+              "location": "LoginStep.user_have_to_lanuch_chrome_and_hit_the_FB_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "To validate the forgot the password link",
+        "description": "",
+        "id": "to-valitdate-the-login-functionality;to-validate-the-forgot-the-password-link",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2032646800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user has to click the forget password link",
+            "match": {
+              "location": "LoginStep.user_has_to_click_the_forget_password_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 203342800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user has to entre the mobileNo",
+            "match": {
+              "location": "LoginStep.user_has_to_entre_the_mobileNo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 193979700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click thw search button",
+            "match": {
+              "location": "LoginStep.click_thw_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "user has to navigate the OTP page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Valitdate the login functionality",
+    "description": "",
+    "id": "to-valitdate-the-login-functionality",
+    "keyword": "Feature",
+    "uri": "F:/eclipse-workspace/cucujava/src/test/resources/features/CucumberClass2.feature",
+    "tags": []
+  }
+]
